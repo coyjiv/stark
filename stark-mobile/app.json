@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "stark-mobile",
+    "slug": "stark",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.coyjiv.stark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.coyjiv.stark",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "1:128411475610:android:bb5a4d09b3e7ec60cb8923"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0af28c16-4885-4abe-bd4f-36ec2bfeadbd"
+      }
+    },
+    "owner": "coyjiv"
+  }
+}
